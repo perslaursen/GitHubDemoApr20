@@ -9,4 +9,9 @@ public class Person
 		Name = name;
 		Phone = phone;
 	}
+
+	public override string ToString()
+	{
+		return $"{Name} ({Phone})";
+	}
 }
